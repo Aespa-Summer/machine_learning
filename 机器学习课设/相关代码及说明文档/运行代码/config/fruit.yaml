@@ -1,0 +1,14 @@
+# 核心修改：改为数据集根目录的绝对路径（必须替换成你自己的实际路径！）
+path: C:\Users\w\Desktop\yolo--Fruit-Classification-main\yolo--Fruit-Classification-main\data
+
+# 基于上面的path，train/val/test用相对路径即可（不用改）
+train: train
+val: val
+test: test
+
+# 类别数（你的数据集是5类，保持不变）
+nc: 5
+
+# 类别名称（建议用英文，避免中文编码问题，也可保留中文）
+names: ['apple', 'pear', 'banana', 'peach', 'carambola']
+# 如果想保留中文也可以：names: ['苹果', '梨子', '香蕉', '桃子', '杨桃']
